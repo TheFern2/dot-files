@@ -121,3 +121,9 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 export PATH="$PATH:$NPM_PACKAGES/bin"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export PATH_TO_FX=/lib/jvm/libs/javafx/javafx-sdk-11.0.2/lib
+export PATH_TO_FX_MODS=/lib/jvm/libs/javafx/javafx-jmods-11.0.2
+export PATH=${PATH}:${PATH_TO_FX}:${PATH_TO_FX_MODS}:${JAVA_HOME}/bin
+
