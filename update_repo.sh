@@ -5,6 +5,7 @@
 
 # configs
 cp -R ~/.config/nvim ./config
+cp ~/.gitignore ./config
 
 # bash
 cp ~/.bashrc ./bash

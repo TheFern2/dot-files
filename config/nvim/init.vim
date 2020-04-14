@@ -21,7 +21,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'vimlab/split-term.vim'
-Plug 'felixhummel/setcolors.vim'
+Plug 'felixhummel/setcolors.vim' "This plugin goes to a next color scheme with F8
+Plug 'majutsushi/tagbar'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -52,6 +53,7 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 map <C-n> :NERDTreeToggle<CR>
+nmap <F9> :TagbarToggle<CR>
 "}}}
 
 " Color Schemes {{{
