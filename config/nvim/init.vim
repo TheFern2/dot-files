@@ -26,7 +26,8 @@ Plug 'tpope/vim-fugitive', {'tag': 'v2.3'}  "downgraded to version 2.3 via git t
 Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'deoplete-plugins/deoplete-jedi' "python autocompletion
+Plug 'deoplete-plugins/deoplete-clang' "c++, c, objective-c
 Plug 'vimlab/split-term.vim'
 Plug 'felixhummel/setcolors.vim' "This plugin goes to a next color scheme with F8
 Plug 'majutsushi/tagbar'

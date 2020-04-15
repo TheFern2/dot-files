@@ -4,7 +4,7 @@
 # This can be added to a daily chron job to update repo and push
 
 # configs
-cp -R ~/.config/nvim ./config
+cp ~/.config/nvim/init.vim ./config/nvim
 cp ~/.gitignore ./config
 
 # bash
