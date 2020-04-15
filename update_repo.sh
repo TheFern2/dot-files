@@ -10,3 +10,6 @@ cp ~/.gitignore ./config
 # bash
 cp ~/.bashrc ./bash
 cp ~/.bash_aliases ./bash
+
+# fish
+cp -R ~/.config/fish ./config

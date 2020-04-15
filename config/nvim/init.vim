@@ -2,11 +2,18 @@
 "General Settings {{{
 set nocompatible "vim, not vi
 filetype plugin indent on
-set relativenumber
 set tabstop=4
 set background=dark
 syntax enable
 set laststatus=2
+set number relativenumber
+
+" Hybrid number lines
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
 " }}}
 
 " Plugin Installs {{{
@@ -23,6 +30,7 @@ Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'vimlab/split-term.vim'
 Plug 'felixhummel/setcolors.vim' "This plugin goes to a next color scheme with F8
 Plug 'majutsushi/tagbar'
+Plug 'MattesGroeger/vim-bookmarks'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
