@@ -1,0 +1,1 @@
+/home/kodaman/.fzf/shell/key-bindings.fish

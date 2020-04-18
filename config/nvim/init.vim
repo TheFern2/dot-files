@@ -33,6 +33,10 @@ Plug 'felixhummel/setcolors.vim' "This plugin goes to a next color scheme with F
 Plug 'majutsushi/tagbar'
 Plug 'MattesGroeger/vim-bookmarks'
 
+" Unmanaged plugin (manually installed and updated)
+Plug '~/git/sample-plugin'
+Plug '~/git/vim-stackexchange'
+
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else

@@ -13,3 +13,9 @@ cp ~/.bash_aliases ./bash
 
 # fish
 cp -R ~/.config/fish ./config
+
+# tmux
+cp ~/.tmux.conf ./config
+
+# alacritty
+cp -R ~/.config/alacritty ./config
