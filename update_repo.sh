@@ -19,3 +19,6 @@ cp ~/.tmux.conf ./config
 
 # alacritty
 cp -R ~/.config/alacritty ./config
+
+# straight out of compton
+cp -R ~/.config/compton ./config
